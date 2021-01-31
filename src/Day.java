@@ -33,7 +33,8 @@ public class Day {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter your day of the week ");
 		String day = input.nextLine();
-			
+		input.close();
+		
 		switch(day.toLowerCase()) {
 		case "monday":
 			System.out.println("The next day after " + day + " is " + WeekDays.MONDAY.nextDay());

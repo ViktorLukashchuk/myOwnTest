@@ -2,24 +2,31 @@ import java.util.Scanner;
 
 enum WeekDays {
 	MONDAY {
+		@Override
         public String nextDay() { return "TUESDAY"; }
     	},
     TUESDAY {
+    	@Override
         public String nextDay() { return "WEDNESDAY"; }
     	},
 	WEDNESDAY {
-	    public String nextDay() { return "THURSDAY"; }
+    	@Override
+    	public String nextDay() { return "THURSDAY"; }
 		},
 	THURSDAY {
+		@Override
 		public String nextDay() { return "FRIDAY"; }
 		},
 	FRIDAY {
+		@Override
 		public String nextDay() { return "SATURDAY"; }
 		},
 	SATURDAY {
+		@Override
 		public String nextDay() { return "SUNDAY"; }
 		},
 	SUNDAY {
+		@Override
 	    public String nextDay() { return "MONDAY"; }
 		 };
 

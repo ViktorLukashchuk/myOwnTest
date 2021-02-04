@@ -1,5 +1,5 @@
 
 public enum HiddenBook {
 	AMENO,
-	State_OF_MIND
+	STATE_OF_MIND
 }

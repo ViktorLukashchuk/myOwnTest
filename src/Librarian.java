@@ -55,13 +55,19 @@ public class Librarian extends User implements ILibraryAction {
 			System.out.println("Your choise is " + HiddenBook.AMENO);
 			break;
 		case "state of mind":
-			System.out.println("Your choise is " + HiddenBook.State_OF_MIND);
+			System.out.println("Your choise is " + HiddenBook.STATE_OF_MIND);
 			break;
 		default:
 			System.out.println("UNKNOWN input. Please run the program again.");
 			break;
 		
 	}
+	}
+
+	@Override
+	public void BList() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 

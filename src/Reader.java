@@ -1,20 +1,23 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 public class Reader extends User implements IAction, ILibraryAction{
 	
-	public Reader(String FirstName, String LastName) {
-		super(FirstName, LastName);
+	public Reader(String firstName, String lastName) {
+		super(firstName, lastName);
 		System.out.println("Role: " + this.getClass().getName() + "\n");
 	}
 	private double balance;
 	
 	
-	
 	@Override
-	public void MonthlyBill() {
+	public void monthlyBill() {
 		balance = balance - payment;
 		System.out.println(getFirstName() + " " + getLastName() + " your bill is paid.");
-		ShowBalance();
+		showBalance();
 	}
 
 	public void setBalance(double balance) {
@@ -22,7 +25,7 @@ public class Reader extends User implements IAction, ILibraryAction{
 	}
 
 	@Override
-	public void ShowBalance() {
+	public void showBalance() {
 		System.out.println("Your balance: " + balance);
 		
 	}
@@ -75,7 +78,11 @@ public class Reader extends User implements IAction, ILibraryAction{
 			break;
 		
 	}
+	
 	}
+
+	
+	 
 
 	
 }

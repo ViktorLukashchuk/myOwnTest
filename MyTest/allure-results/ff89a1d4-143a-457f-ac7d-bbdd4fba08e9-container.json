@@ -1,0 +1,1 @@
+{"uuid":"ff89a1d4-143a-457f-ac7d-bbdd4fba08e9","name":"com.test.ui.DressTest","children":["f1a605d4-99d0-40bb-bf89-1a0618a9e820"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1614201955575,"stop":1614201962221}],"afters":[],"links":[],"start":1614201955544,"stop":1614201968485}

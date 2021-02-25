@@ -1,0 +1,1 @@
+{"uuid":"53821d03-4779-4d8a-84c3-ca797ac79ff0","name":"com.test.ui.BlouseTest","children":["f824f5ef-31df-4209-ad47-567eca711ec4"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1614288145989,"stop":1614288153991}],"afters":[],"links":[],"start":1614288145953,"stop":1614288165342}

@@ -1,0 +1,171 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1614800158.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"MRData"
+	],
+	"properties": {
+		"MRData": {
+			"$id": "#root/MRData", 
+			"title": "Mrdata", 
+			"type": "object",
+			"required": [
+				"xmlns",
+				"series",
+				"url",
+				"limit",
+				"offset",
+				"total",
+				"ConstructorTable"
+			],
+			"properties": {
+				"xmlns": {
+					"$id": "#root/MRData/xmlns", 
+					"title": "Xmlns", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"http://ergast.com/mrd/1.4"
+					],
+					"pattern": "^.*$"
+				},
+				"series": {
+					"$id": "#root/MRData/series", 
+					"title": "Series", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"f1"
+					],
+					"pattern": "^.*$"
+				},
+				"url": {
+					"$id": "#root/MRData/url", 
+					"title": "Url", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"http://ergast.com/api/f1/2010/constructors.json"
+					],
+					"pattern": "^.*$"
+				},
+				"limit": {
+					"$id": "#root/MRData/limit", 
+					"title": "Limit", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"30"
+					],
+					"pattern": "^.*$"
+				},
+				"offset": {
+					"$id": "#root/MRData/offset", 
+					"title": "Offset", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"0"
+					],
+					"pattern": "^.*$"
+				},
+				"total": {
+					"$id": "#root/MRData/total", 
+					"title": "Total", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"12"
+					],
+					"pattern": "^.*$"
+				},
+				"ConstructorTable": {
+					"$id": "#root/MRData/ConstructorTable", 
+					"title": "Constructortable", 
+					"type": "object",
+					"required": [
+						"season",
+						"Constructors"
+					],
+					"properties": {
+						"season": {
+							"$id": "#root/MRData/ConstructorTable/season", 
+							"title": "Season", 
+							"type": "string",
+							"default": "",
+							"examples": [
+								"2010"
+							],
+							"pattern": "^.*$"
+						},
+						"Constructors": {
+							"$id": "#root/MRData/ConstructorTable/Constructors", 
+							"title": "Constructors", 
+							"type": "array",
+							"default": [],
+							"items":{
+								"$id": "#root/MRData/ConstructorTable/Constructors/items", 
+								"title": "Items", 
+								"type": "object",
+								"required": [
+									"constructorId",
+									"url",
+									"name",
+									"nationality"
+								],
+								"properties": {
+									"constructorId": {
+										"$id": "#root/MRData/ConstructorTable/Constructors/items/constructorId", 
+										"title": "Constructorid", 
+										"type": "string",
+										"default": "",
+										"examples": [
+											"ferrari"
+										],
+										"pattern": "^.*$"
+									},
+									"url": {
+										"$id": "#root/MRData/ConstructorTable/Constructors/items/url", 
+										"title": "Url", 
+										"type": "string",
+										"default": "",
+										"examples": [
+											"http://en.wikipedia.org/wiki/Scuderia_Ferrari"
+										],
+										"pattern": "^.*$"
+									},
+									"name": {
+										"$id": "#root/MRData/ConstructorTable/Constructors/items/name", 
+										"title": "Name", 
+										"type": "string",
+										"default": "",
+										"examples": [
+											"Ferrari"
+										],
+										"pattern": "^.*$"
+									},
+									"nationality": {
+										"$id": "#root/MRData/ConstructorTable/Constructors/items/nationality", 
+										"title": "Nationality", 
+										"type": "string",
+										"default": "",
+										"examples": [
+											"Italian"
+										],
+										"pattern": "^.*$"
+									}
+								}
+							}
+
+						}
+					}
+				}
+
+			}
+		}
+
+	}
+}

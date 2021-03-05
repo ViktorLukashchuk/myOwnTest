@@ -1,0 +1,373 @@
+[1614890437.718][INFO]: Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 46096
+[1614890437.718][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1614890438.413][INFO]: [d57d155620846788216907723d450712] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Viktor\\IdeaProjects\\MyTest\\build\\downloads\\1614890437054_8732_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Viktor\\IdeaProjects\\MyTest\\build\\downloads\\1614890437054_8732_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1614890438.420][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Viktor\\IdeaProjects\\MyTest\\build\\downloads\\1614890437054_8732_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1614890438.429][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1614890438.433][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Viktor\AppData\Local\Temp\scoped_dir10392_1618243654" data:,
+[1614890439.060][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1614890439.063][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1614890439.069][INFO]: [d57d155620846788216907723d450712] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "88.0.4324.190",
+      "chrome": {
+         "chromedriverVersion": "88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784})",
+         "userDataDir": "C:\\Users\\Viktor\\AppData\\Local\\Temp\\scoped_dir10392_1618243654"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51197"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d57d155620846788216907723d450712"
+}
+[1614890439.133][INFO]: [d57d155620846788216907723d450712] COMMAND MaximizeWindow {
+
+}
+[1614890439.133][INFO]: Waiting for pending navigations...
+[1614890439.135][INFO]: Done waiting for pending navigations. Status: ok
+[1614890439.254][INFO]: Waiting for pending navigations...
+[1614890439.254][INFO]: Done waiting for pending navigations. Status: ok
+[1614890439.254][INFO]: [d57d155620846788216907723d450712] RESPONSE MaximizeWindow {
+   "height": 1056,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1614890439.260][INFO]: [d57d155620846788216907723d450712] COMMAND SetTimeouts {
+   "pageLoad": 20000
+}
+[1614890439.260][INFO]: [d57d155620846788216907723d450712] RESPONSE SetTimeouts
+[1614890439.269][INFO]: [d57d155620846788216907723d450712] COMMAND Navigate {
+   "url": "http://automationpractice.com/"
+}
+[1614890439.269][INFO]: Waiting for pending navigations...
+[1614890439.270][INFO]: Done waiting for pending navigations. Status: ok
+[1614890441.375][INFO]: Waiting for pending navigations...
+[1614890445.772][INFO]: Done waiting for pending navigations. Status: ok
+[1614890445.772][INFO]: [d57d155620846788216907723d450712] RESPONSE Navigate
+[1614890446.039][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890446.043][INFO]: Waiting for pending navigations...
+[1614890446.043][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.057][INFO]: Waiting for pending navigations...
+[1614890446.058][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.058][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890446.285][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890446.285][INFO]: Waiting for pending navigations...
+[1614890446.286][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.291][INFO]: Waiting for pending navigations...
+[1614890446.291][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.291][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890446.507][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890446.507][INFO]: Waiting for pending navigations...
+[1614890446.508][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.513][INFO]: Waiting for pending navigations...
+[1614890446.513][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.513][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890446.726][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890446.726][INFO]: Waiting for pending navigations...
+[1614890446.727][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.732][INFO]: Waiting for pending navigations...
+[1614890446.732][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.732][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890446.951][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890446.951][INFO]: Waiting for pending navigations...
+[1614890446.952][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.959][INFO]: Waiting for pending navigations...
+[1614890446.960][INFO]: Done waiting for pending navigations. Status: ok
+[1614890446.960][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890447.171][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890447.171][INFO]: Waiting for pending navigations...
+[1614890447.172][INFO]: Done waiting for pending navigations. Status: ok
+[1614890447.178][INFO]: Waiting for pending navigations...
+[1614890447.178][INFO]: Done waiting for pending navigations. Status: ok
+[1614890447.178][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890447.387][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890447.387][INFO]: Waiting for pending navigations...
+[1614890447.387][INFO]: Done waiting for pending navigations. Status: ok
+[1614890447.393][INFO]: Waiting for pending navigations...
+[1614890447.394][INFO]: Done waiting for pending navigations. Status: ok
+[1614890447.394][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890447.609][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890447.609][INFO]: Waiting for pending navigations...
+[1614890447.610][INFO]: Done waiting for pending navigations. Status: ok
+[1614890447.616][INFO]: Waiting for pending navigations...
+[1614890447.617][INFO]: Done waiting for pending navigations. Status: ok
+[1614890447.617][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890447.830][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890447.830][INFO]: Waiting for pending navigations...
+[1614890447.830][INFO]: Done waiting for pending navigations. Status: ok
+[1614890447.837][INFO]: Waiting for pending navigations...
+[1614890447.838][INFO]: Done waiting for pending navigations. Status: ok
+[1614890447.838][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890448.050][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890448.050][INFO]: Waiting for pending navigations...
+[1614890448.051][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.057][INFO]: Waiting for pending navigations...
+[1614890448.058][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.058][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890448.270][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890448.270][INFO]: Waiting for pending navigations...
+[1614890448.270][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.278][INFO]: Waiting for pending navigations...
+[1614890448.281][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.281][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890448.502][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890448.502][INFO]: Waiting for pending navigations...
+[1614890448.503][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.509][INFO]: Waiting for pending navigations...
+[1614890448.510][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.510][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890448.724][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890448.724][INFO]: Waiting for pending navigations...
+[1614890448.725][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.731][INFO]: Waiting for pending navigations...
+[1614890448.732][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.732][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890448.943][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890448.943][INFO]: Waiting for pending navigations...
+[1614890448.944][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.950][INFO]: Waiting for pending navigations...
+[1614890448.951][INFO]: Done waiting for pending navigations. Status: ok
+[1614890448.951][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890449.162][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890449.162][INFO]: Waiting for pending navigations...
+[1614890449.163][INFO]: Done waiting for pending navigations. Status: ok
+[1614890449.169][INFO]: Waiting for pending navigations...
+[1614890449.170][INFO]: Done waiting for pending navigations. Status: ok
+[1614890449.170][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890449.383][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890449.383][INFO]: Waiting for pending navigations...
+[1614890449.384][INFO]: Done waiting for pending navigations. Status: ok
+[1614890449.389][INFO]: Waiting for pending navigations...
+[1614890449.389][INFO]: Done waiting for pending navigations. Status: ok
+[1614890449.389][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890449.604][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890449.605][INFO]: Waiting for pending navigations...
+[1614890449.605][INFO]: Done waiting for pending navigations. Status: ok
+[1614890449.611][INFO]: Waiting for pending navigations...
+[1614890449.611][INFO]: Done waiting for pending navigations. Status: ok
+[1614890449.611][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890449.827][INFO]: [d57d155620846788216907723d450712] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class = \"product-name\" and @title = \"Blousevekjbjerbve\"]"
+}
+[1614890449.827][INFO]: Waiting for pending navigations...
+[1614890449.827][INFO]: Done waiting for pending navigations. Status: ok
+[1614890449.832][INFO]: Waiting for pending navigations...
+[1614890449.832][INFO]: Done waiting for pending navigations. Status: ok
+[1614890449.832][INFO]: [d57d155620846788216907723d450712] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = "product-name" and @title = "Blousevekjbjerbve"]"}
+  (Session info: chrome=88.0.4324.190)
+[1614890450.049][INFO]: [d57d155620846788216907723d450712] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1614890450.049][INFO]: Waiting for pending navigations...
+[1614890450.049][INFO]: Done waiting for pending navigations. Status: ok
+[1614890450.059][INFO]: Waiting for pending navigations...
+[1614890450.060][INFO]: Done waiting for pending navigations. Status: ok
+[1614890450.060][INFO]: [d57d155620846788216907723d450712] RESPONSE ExecuteScript "\u003Chtml lang=\"en\" class=\"\">\u003Chead>\n\t\t\u003Cmeta charset=\"utf-8\">\n\t\t\u003Ctitle>My Store\u003C/title>\n\t\t\u003Cmeta name=\"description\" content=\"Shop powered by PrestaShop\">\n\t\t\u003Cmeta name=\"generator\" content=\"PrestaShop\">\n\t\t..."
+[1614890450.100][INFO]: [d57d155620846788216907723d450712] COMMAND Screenshot {
+
+}
+[1614890450.100][INFO]: Waiting for pending navigations...
+[1614890450.101][INFO]: Done waiting for pending navigations. Status: ok
+[1614890450.635][INFO]: Waiting for pending navigations...
+[1614890450.636][INFO]: Done waiting for pending navigations. Status: ok
+[1614890450.636][INFO]: [d57d155620846788216907723d450712] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAPJCAYAAADzujVxAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXmYHOV97/vp2nqZnulZNJKQBEIjAbYxYIQw2Mm1T6KR5DjBG0ICX59DwgEBxzc3C5gRdoJjJzYjG58kN9fHMHA4F1+eh0gWITE3i7YkPifGBG0gvCBgBmQ2S..."
+[1614890450.886][INFO]: [d57d155620846788216907723d450712] COMMAND Quit {
+
+}
+[1614890450.950][INFO]: [d57d155620846788216907723d450712] RESPONSE Quit
